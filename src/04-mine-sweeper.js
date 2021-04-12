@@ -29,7 +29,7 @@ function minesweeper(matrix) {
     for (let j = 0; j < matrix[i].length; j += 1) {
       if (matrix[i][j] === true) {
         mines += 1;
-      } else if (true) {
+      } else {
         if (matrix[i - 1] && matrix[i - 1][j - 1] && matrix[i - 1][j - 1] === true) {
           mines += 1;
         }
