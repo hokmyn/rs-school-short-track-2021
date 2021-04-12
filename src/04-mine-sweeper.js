@@ -23,6 +23,46 @@
  */
 function minesweeper(/* matrix */) {
   throw new Error('Not implemented');
+  /*
+  const resArr = [];
+  let mines = 0;
+  for (let i = 0; i < matrix.length; i += 1) {
+    resArr[i] = [];
+    for (let j = 0; j < matrix[i].length; j += 1) {
+      if (matrix[i][j] === true) {
+        mines += 1;
+      } else if (true) {
+        if (matrix[i - 1] && matrix[i - 1][j - 1] && matrix[i - 1][j - 1] === true) {
+          mines += 1;
+        }
+        if (matrix[i - 1] && matrix[i - 1][j] === true) {
+          mines += 1;
+        }
+        if (matrix[i - 1] && matrix[i - 1][j + 1] && matrix[i - 1][j + 1] === true) {
+          mines += 1;
+        }
+        if (matrix[i][j - 1] && matrix[i][j - 1] === true) {
+          mines += 1;
+        }
+        if (matrix[i][j + 1] && matrix[i][j + 1] === true) {
+          mines += 1;
+        }
+        if (matrix[i + 1] && matrix[i + 1][j - 1] && matrix[i + 1][j - 1] === true) {
+          mines += 1;
+        }
+        if (matrix[i + 1] && matrix[i + 1][j] && matrix[i + 1][j] === true) {
+          mines += 1;
+        }
+        if (matrix[i + 1] && matrix[i + 1][j + 1] && matrix[i + 1][j + 1] === true) {
+          mines += 1;
+        }
+      }
+      resArr[i].push(mines);
+      mines = 0;
+    }
+  }
+  return resArr;
+  */
 }
 
 module.exports = minesweeper;
