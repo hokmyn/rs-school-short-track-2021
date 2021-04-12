@@ -21,9 +21,7 @@
  *  [1, 1, 1]
  * ]
  */
-function minesweeper(/* matrix */) {
-  throw new Error('Not implemented');
-  /*
+function minesweeper(matrix) {
   const resArr = [];
   let mines = 0;
   for (let i = 0; i < matrix.length; i += 1) {
@@ -62,7 +60,6 @@ function minesweeper(/* matrix */) {
     }
   }
   return resArr;
-  */
 }
 
 module.exports = minesweeper;
